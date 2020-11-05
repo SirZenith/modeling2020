@@ -1,0 +1,69 @@
+
+- day count
+    30
+- load
+    1200
+- base budget
+    10000
+- base income
+    1000
+- weight & base price
+    water:3:5
+    food:2:10
+- base cost
+    sun:water:3
+    sun:food:4
+    high:water:9
+    high:food:9
+    sand:water:10
+    sand:food:10
+- node count
+    12
+- special node
+    v':v
+    m':m
+    st:s
+    ed:e
+- adjacent releation
+    st:a
+    a:b
+    b:c
+    c:d
+    d:m,m',v,v'
+    e:m,m',v,v',f
+    m:m'
+    v:v'
+    f:ed
+- path weight
+    m,m':0
+    v,v':0
+    st,m:5
+    st,v:5
+    st,ed:8
+    a,m:4
+    a,v:4
+    a,ed:7
+    b,m:3
+    b,v:3
+    b,ed:6
+    c,m:2
+    c,v:2
+    c,ed:5
+    d,m:1
+    d,v:1
+    d,ed:4
+    v,v:0
+    v,m:2
+    v,ed:4
+    m,m:0
+    m,v:2
+    m,ed:4
+    e,m:1
+    e,v:1
+    e,ed:2
+    f,m:2
+    f,v:2
+    f,ed:1
+    ed,m:3
+    ed,v:3
+    ed,ed:0
